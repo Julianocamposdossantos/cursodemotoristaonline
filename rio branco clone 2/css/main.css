@@ -108,9 +108,7 @@ html {
 }
 
 
-  .wel {
-    margin-left: 9rem;
-  }
+
 a.saiba-mais {
   width: 100%;
   height: auto;
@@ -1737,6 +1735,10 @@ progressbar*/
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+
+	  .wel {
+    margin-left: 9rem;
   }
 }
 

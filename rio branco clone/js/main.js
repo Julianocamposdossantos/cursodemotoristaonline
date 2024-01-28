@@ -1801,3 +1801,12 @@ if (srcAtual === 'img/welcome_image.jpg') {
 		imagem.style.marginLeft = '10em';
 		imagem.id = 'junior'
 	}});
+
+const elementosTextCenter = document.querySelectorAll('.text-center');
+elementosTextCenter.forEach(elemento => {
+	
+	
+	if (elemento.tagName == 'P') {
+        elemento.remove()
+    }
+});

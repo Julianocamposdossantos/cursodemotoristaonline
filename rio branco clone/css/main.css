@@ -264,6 +264,10 @@ h6 {
   h6 {
     font-size: 1.1rem;
   }
+	
+  #junior {
+    margin-left: 3rem!important;
+  }
 }
 
 h1:first-child,

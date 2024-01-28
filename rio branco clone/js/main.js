@@ -1786,3 +1786,17 @@ $window.on('resize', function(){
 });
 //end of IIFE function
 })(jQuery);
+
+
+
+const img_junior = document.querySelectorAll("img");
+
+img_junior.forEach(imagem => {
+
+    const srcAtual = imagem.getAttribute("src");
+
+    if (srcAtual === 'img/welcome_image.jpg') {
+        const novoSrc = srcAtual.replace('.jpg', '.png');
+        imagem.setAttribute("src", novoSrc);
+    }
+});

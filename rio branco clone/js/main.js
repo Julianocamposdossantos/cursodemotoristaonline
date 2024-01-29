@@ -1810,3 +1810,15 @@ elementosTextCenter.forEach(elemento => {
         elemento.remove()
     }
 });
+
+const novoMeta = document.createElement("meta");
+
+novoMeta.setAttribute("name", "viewport");
+novoMeta.setAttribute("content", "width=device-width, initial-scale=1, shrink-to-fit=no");
+
+const head = document.head;
+
+head.appendChild(novoMeta);
+
+
+
